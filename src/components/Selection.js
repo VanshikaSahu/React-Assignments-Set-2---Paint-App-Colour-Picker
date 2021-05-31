@@ -8,7 +8,7 @@ const Selection = (props) =>{
     }
     
     return(
-        <div className = "fix-box" style = {{color}} onClick={applyColor(apply)} > 
+        <div className = "fix-box" style = {{color}} onClick={() =>{applyColor(apply)}} > 
             <h2 className = "subheading">Selection</h2>
             </div> 
     )
